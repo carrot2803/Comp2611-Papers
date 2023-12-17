@@ -1,0 +1,34 @@
+Node | Discovery Time | Finish Time
+-----|----------------|------------
+B    | 1              | 14
+Q    | 2              | 13
+L    | 3              | 12
+N    | 4              | 5
+X    | 6              | 11
+T    | 7              | 10
+H    | 15             | 16
+
+
+Edge | Type
+-----|------
+B-Q  | T (Tree Edge)
+Q-L  | T (Tree Edge)
+L-N  | T (Tree Edge)
+N-L  | B (Back Edge)
+L-X  | T (Tree Edge)
+X-T  | T (Tree Edge)
+T-L  | B (Back Edge)
+T-Q  | B (Back Edge)
+Q-X  | F (Forward Edge)
+B-T  | C (Cross Edge)
+B-X  | C (Cross Edge)
+H-B  | C (Cross Edge)
+H-T  | C (Cross Edge)
+
+
+Tree edges (T) are edges in the depth-first G.
+Back edges (B) are edges connecting a vertex to its ancestors in a depth-first tree.
+Forward edges (F) are non-tree edges connecting a vertex to a descendant.
+Cross edges (C) are all other edges.
+
+A topological sort is possible in a directed graph if and only if the graph is acyclic.
