@@ -17,7 +17,7 @@ Each past paper is organized by `month/year`, and each question is in the form q
   <code>There are several ways to save this repository on your device. Two of these options include:</code>
 </summary>
 
--   [Downloading repository as ZIP](https://github.com/carrot2803/comp1603/archive/refs/heads/master.zip)
+-   [Downloading repository as ZIP](https://github.com/carrot2803/Comp2611-Papers/archive/refs/heads/master.zip)
 -   Running the following command in a terminal, provided the [GitHub CLI](https://cli.github.com/) has been previously installed:
 
 ```sh
